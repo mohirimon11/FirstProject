@@ -212,7 +212,7 @@
             this.Controls.Add(this.displayTextBox);
             this.Controls.Add(this.groupBox1);
             this.Name = "Coffee_Shop";
-            this.Text = "Form1";
+            this.Text = "Coffee Shop";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
