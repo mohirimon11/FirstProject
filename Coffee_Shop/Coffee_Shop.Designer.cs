@@ -83,12 +83,13 @@
             // 
             // saveButton
             // 
-            this.saveButton.Location = new System.Drawing.Point(177, 227);
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.saveButton.Location = new System.Drawing.Point(202, 227);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(75, 23);
             this.saveButton.TabIndex = 10;
             this.saveButton.Text = "Save";
-            this.saveButton.UseVisualStyleBackColor = true;
+            this.saveButton.UseVisualStyleBackColor = false;
             this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // quantityTextBox
@@ -166,16 +167,16 @@
             // 
             // displayTextBox
             // 
-            this.displayTextBox.Location = new System.Drawing.Point(499, 128);
+            this.displayTextBox.Location = new System.Drawing.Point(631, 25);
             this.displayTextBox.Name = "displayTextBox";
-            this.displayTextBox.Size = new System.Drawing.Size(251, 191);
+            this.displayTextBox.Size = new System.Drawing.Size(238, 500);
             this.displayTextBox.TabIndex = 1;
             this.displayTextBox.Text = "";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(499, 28);
+            this.label6.Location = new System.Drawing.Point(415, 28);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(210, 13);
             this.label6.TabIndex = 2;
@@ -183,15 +184,15 @@
             // 
             // sizeTextBox
             // 
-            this.sizeTextBox.Location = new System.Drawing.Point(608, 44);
+            this.sizeTextBox.Location = new System.Drawing.Point(524, 44);
             this.sizeTextBox.Name = "sizeTextBox";
             this.sizeTextBox.Size = new System.Drawing.Size(101, 20);
             this.sizeTextBox.TabIndex = 3;
             // 
             // showButton
             // 
-            this.showButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.showButton.Location = new System.Drawing.Point(634, 70);
+            this.showButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.showButton.Location = new System.Drawing.Point(550, 70);
             this.showButton.Name = "showButton";
             this.showButton.Size = new System.Drawing.Size(75, 23);
             this.showButton.TabIndex = 4;
@@ -203,6 +204,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SandyBrown;
             this.ClientSize = new System.Drawing.Size(1053, 528);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.sizeTextBox);
