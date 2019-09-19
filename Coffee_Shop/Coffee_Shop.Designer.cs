@@ -169,7 +169,7 @@
             // 
             this.displayTextBox.Location = new System.Drawing.Point(631, 25);
             this.displayTextBox.Name = "displayTextBox";
-            this.displayTextBox.Size = new System.Drawing.Size(238, 500);
+            this.displayTextBox.Size = new System.Drawing.Size(238, 495);
             this.displayTextBox.TabIndex = 1;
             this.displayTextBox.Text = "";
             // 
@@ -205,7 +205,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SandyBrown;
-            this.ClientSize = new System.Drawing.Size(1053, 528);
+            this.ClientSize = new System.Drawing.Size(907, 556);
             this.Controls.Add(this.showButton);
             this.Controls.Add(this.sizeTextBox);
             this.Controls.Add(this.label6);
